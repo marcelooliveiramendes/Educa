@@ -7,6 +7,9 @@ https://marcelooliveiramendes.github.io/Educa/
 <h1>Home</h1>
 ![1_page-0001](https://user-images.githubusercontent.com/48383295/194153100-cb40a594-25f1-46b0-a295-ffacc9f1a8c3.jpg)
 
+![1_page-0001](https://user-images.githubusercontent.com/48383295/194153476-4742b68c-a82a-463f-9c3c-d0897954f88f.jpg)
+
+
 <h1>Sobre Nos</h1>
 ![2_page-0001](https://user-images.githubusercontent.com/48383295/194153188-1310e0a1-42d0-49a1-a1c3-1727330e8c95.jpg)
 
