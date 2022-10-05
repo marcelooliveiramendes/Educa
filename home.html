@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> educa </a>
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">home</a>
+        <a href="about.html">Sobre Nos</a>
+        <a href="courses.html">Cursos</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">Login</span>
+        <span class="btn register-btn">Cadastre-se</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>Entre agora</h3>
+        <input type="email" placeholder="Digite seu email" class="box" />
+        <input type="password" placeholder="Digite sua senha" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Mantenha-me conectado</label>
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+        <input type="submit" value="Entrar" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>Cadastrar</h3>
+        <input type="email" placeholder="Digite seu email" class="box" />
+        <input type="password" placeholder="Digite sua senha" class="box" />
+        <input
+          type="password"
+          placeholder="Confirme sua senha"
+          class="box"
+        />
+        <input type="submit" value="register now" class="btn" />
+      </form>
+    </div>
+
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Os melhores cursos você acha aqui!</h3>
+              <p>Participe de uma das melhores escolas do país</p>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Os melhores cursos você acha aqui!</h3>
+              <p>Participe de uma das melhores escolas do país</p>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>Os melhores cursos você acha aqui!</h3>
+              <p>Participe de uma das melhores escolas do país</p>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="subjects">
+      <h1 class="heading">Principais Matérias</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/subject-icon-1.png" alt="" />
+          <h3>Design Gráfico</h3>
+          <p>8 módulos</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-2.png" alt="" />
+          <h3>Matemática</h3>
+          <p>16 módulos</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-3.png" alt="" />
+          <h3>Letras</h3>
+          <p>12 módulos</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-4.png" alt="" />
+          <h3>Desenvolvimento</h3>
+          <p>10 módulos</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-5.png" alt="" />
+          <h3>Ciências</h3>
+          <p>12 módulos</p>
+        </div>
+
+        <div class="box">
+          <img src="images/subject-icon-6.png" alt="" />
+          <h3>Engenharia</h3>
+          <p>14 módulos</p>
+        </div>
+      </div>
+    </section>
+    <section class="home-courses">
+      <h1 class="heading">Principais Cursos</h1>
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-1.png" alt="" />
+              <h3>Design Gráfico</h3>
+            </div>
+            <div class="content">
+              <h3>Design Gráfico</h3>
+              <p>Curso de modelagem e prototipagem de sites e aplicativos.</p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-2.png" alt="" />
+              <h3>Desenvolvimento de Sistemas</h3>
+            </div>
+            <div class="content">
+              <h3>Desenvolvimento de Sistemas</h3>
+              <p>
+                Curso feito para pessoas que desejam se tornar programadoras.
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-3.png" alt="" />
+              <h3>Matemática</h3>
+            </div>
+            <div class="content">
+              <h3>Matemática</h3>
+              <p>
+                Transforma estudantes em profissionais que conseguem usar a
+                lógica para elaborar teorias, testar hipóteses, desenvolver
+                aplicações de cálculos na pesquisa e nas ciências.
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-4.png" alt="" />
+              <h3>Letras</h3>
+            </div>
+            <div class="content">
+              <h3>Letras</h3>
+              <p>
+                Prepara os estudantes para compreender a história de uma língua,
+                suas regras gramaticais, os dialetos que a compõem e sua relação
+                com a cultura de um povo.
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-5.png" alt="" />
+              <h3>Ciências</h3>
+            </div>
+            <div class="content">
+              <h3>Ciências</h3>
+              <p>
+                É o estudo exclusivo dos fatores de ordem naturalmente físicas,
+                desconsiderando aspectos e mudanças proporcionadas pelo
+                comportamento dos seres vivos.
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-6.png" alt="" />
+              <h3>Engenharia</h3>
+            </div>
+            <div class="content">
+              <h3>Engenharia</h3>
+              <p>
+                Você aprenderá a capacidade de aplicar os conhecimentos
+                científicos de forma prática a fim de produzir novas utilidades.
+              </p>
+              <a href="#" class="btn">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i> educa</h3>
+          <p>Um novo jeito de aprender.</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>Páginas</h3>
+          <a href="home.html" class="link">Home</a>
+          <a href="about.html" class="link">Sobre nós</a>
+          <a href="courses.html" class="link">Cursos</a>
+          <a href="contact.html" class="link">Contato</a>
+        </div>
+        <div class="box">
+          <h3>Ajuda</h3>
+          <a href="#" class="link">Ajuda</a>
+          <a href="#" class="link">Questões</a>
+          <a href="#" class="link">Feedback</a>
+          <a href="#" class="link">Politica</a>
+          <a href="#" class="link">Termos de Uso</a>
+        </div>
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>Se inscreva para novos conteúdos</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="Digite seu email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="Se inscrever" class="btn" />
+          </form>
+        </div>
+      </div>
+      <div class="credit">
+        criado por <span>Marcelo Oliveira Mendes</span> | Todos os direitos
+        reservados!
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
